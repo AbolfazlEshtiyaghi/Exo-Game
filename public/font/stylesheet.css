@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'iconly';
+    src: url('iconly.eot');
+    src: url('iconly.eot?#iefix') format('embedded-opentype'),
+        url('iconly.woff2') format('woff2'),
+        url('iconly.woff') format('woff'),
+        url('iconly.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IRANYekanWeb(FaNum)';
+    src: url('IRANYekanWebFaNum.eot');
+    src: url('IRANYekanWebFaNum.eot?#iefix') format('embedded-opentype'),
+        url('IRANYekanWebFaNum.woff2') format('woff2'),
+        url('IRANYekanWebFaNum.woff') format('woff'),
+        url('IRANYekanWebFaNum.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'swiper-icons';
+    src: url('swiper-icons.eot');
+    src: url('swiper-icons.eot?#iefix') format('embedded-opentype'),
+        url('swiper-icons.woff2') format('woff2'),
+        url('swiper-icons.woff') format('woff'),
+        url('swiper-icons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IRANYekanWeb(FaNum)';
+    src: url('IRANYekanWebFaNum_1.eot');
+    src: url('IRANYekanWebFaNum_1.eot?#iefix') format('embedded-opentype'),
+        url('IRANYekanWebFaNum_1.woff2') format('woff2'),
+        url('IRANYekanWebFaNum_1.woff') format('woff'),
+        url('IRANYekanWebFaNum_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IRANYekanWeb(FaNum)';
+    src: url('IRANYekanWebFaNum-Bold.eot');
+    src: url('IRANYekanWebFaNum-Bold.eot?#iefix') format('embedded-opentype'),
+        url('IRANYekanWebFaNum-Bold.woff2') format('woff2'),
+        url('IRANYekanWebFaNum-Bold.woff') format('woff'),
+        url('IRANYekanWebFaNum-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
