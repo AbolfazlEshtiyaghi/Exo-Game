@@ -4009,14 +4009,15 @@ SSD
         </div>
       </div>
     </div>
-  </div>
-  <!-- Swiper JS -->
- <!-- btn-->
-  <div class="swiper w-[100%] h-[10%]  flex justify-center items-center">
+     <!-- btn-->
+
     <div class="swiper-button-next !mt-[-15px]"></div>
     <div class="swiper-button-prev"></div>
-  </div>
+
   <!-- btn -->  
+  </div>
+  <!-- Swiper JS -->
+
 
     <!-- Swiper -->
   <div class="swiper slider5-p2">
@@ -4996,20 +4997,12 @@ Xbox Series X
       slidesPerView: 6.6,
       spaceBetween: 30,
     
-        
-       navigation: {
-         prevEl: ".swiper-button-prev",
-         nextEl: ".swiper-button-next",
-      },
-   controller: {
-    control: swiper5,
-  },
-    });
-     var swiper = new Swiper(".btn", {
-     
-     
-    });
 
+    });
+    swiper5.controller.control = swiper52;
+swiper52.controller.control = swiper5;
+
+  
   const swiper5mo = new Swiper(".slider5-mo", {
 
       slidesPerView: 3,
@@ -5019,12 +5012,9 @@ Xbox Series X
         delay: 2000,
         disableOnInteraction: false,
       },
-       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+  
     });
-  var swiper = new Swiper(".slider5-mo-p2", {
+  var swiper52mo = new Swiper(".slider5-mo-p2", {
 
       slidesPerView: 3,
       spaceBetween: 30,
@@ -5033,14 +5023,11 @@ Xbox Series X
         delay: 2000,
         disableOnInteraction: false,
       },
-       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
-   controller: {
-    control: swiper5mo,
-  },
+  
+
     });
+     swiper5mo.controller.control = swiper52mo;
+swiper52mo.controller.control = swiper5mo;
 
   </script>
 </body>

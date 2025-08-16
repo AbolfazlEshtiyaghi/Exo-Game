@@ -5359,7 +5359,7 @@ html, body {
       object-fit: cover;
     }
     .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
-      width: 35px !important;
+      width: 25px !important;
       height: 30px;
       background-color: white;
       display: flex;
@@ -5373,7 +5373,7 @@ html, body {
       border-color: #a39c9c;
     }
     .swiper-button-next, .swiper-rtl .swiper-button-prev {
-      width: 28px !important;
+      width: 25px !important;
       height: 30px !important;
       background-color: white;
       display: flex;
@@ -5385,7 +5385,8 @@ html, body {
       border: solid;
       border-width: 1px;
       border-color: #a39c9c;
-      margin-left: 20px;
+      margin-left: 0px;
+      margin-top: 30px !important;
     }
     .swiper-button-next:after, .swiper-button-prev:after {
       color: #050505 !important;

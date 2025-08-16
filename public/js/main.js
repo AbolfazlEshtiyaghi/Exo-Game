@@ -130,7 +130,7 @@ p1111.classList.add("opacity")
 //  })
 
 
-
+    
 
 let navFooter=document.querySelectorAll(".nav-footer")
 let mainDiv=document.querySelector(".main-foot-nav-div")
