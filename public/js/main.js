@@ -29,19 +29,19 @@ closeMenu.addEventListener("click", () => {
   let headerDeskDivOpen = document.querySelector(".div-header-height-desktop");
   let headerDesktop=document.querySelector(".header-desktop")
   let divText=document.querySelector(".div-text")
-window.addEventListener("scroll", () => {
+// window.addEventListener("scroll", () => {
 
-  if (window.scrollY > 100) {
-    headerDeskDivOpen.classList.add("height");
-    headerDesktop.classList.add("min-height")
+//   if (window.scrollY > 100) {
+//     headerDeskDivOpen.classList.add("height");
+//     headerDesktop.classList.add("min-height")
 
 
-  } else {
-    headerDeskDivOpen.classList.remove("height");
-    headerDesktop.classList.remove("min-height")
+//   } else {
+//     headerDeskDivOpen.classList.remove("height");
+//     headerDesktop.classList.remove("min-height")
 
-  }
-});
+//   }
+// });
 
 let navDivSubMenu=document.querySelectorAll(".menu-div-desktop")
 let p2=document.querySelector(".p2")
@@ -150,42 +150,42 @@ let ranslate=document.querySelector(".ranslate")
 let ranslate2=document.querySelector(".ranslate2")
 let ranslate3=document.querySelector(".ranslate3")
 let ranslate4=document.querySelector(".ranslate4")
-navFooter.forEach((navFooters)=>{
-navFooters.addEventListener("click",()=>{
+// navFooter.forEach((navFooters)=>{
+// navFooters.addEventListener("click",()=>{
 
-  if(navFooters.dataset.link==="f1"){
-      mainDiv.classList.toggle("h-footer")
-subfoot.classList.toggle("h-footer1")
-subFooterDiv.classList.toggle("opacity-footer")
-green.classList.toggle("color-click")
-ranslate.classList.toggle("translate-click")
-  }
-  if(navFooters.dataset.link==="f2"){
-          mainDiv.classList.toggle("h-footer2")
-subfoot2.classList.toggle("h-footer11")
-subFooterDiv2.classList.toggle("opacity-footer")
-green2.classList.toggle("color-click")
-ranslate2.classList.toggle("translate-click")
-  }
-  if(navFooters.dataset.link==="f3"){
-          mainDiv.classList.toggle("h-footer3")
-subfoot3.classList.toggle("h-footer111")
-subFooterDiv3.classList.toggle("opacity-footer")
-green3.classList.toggle("color-click")
-ranslate3.classList.toggle("translate-click")
-  }
-  if(navFooters.dataset.link==="f4"){
-          mainDiv.classList.toggle("h-footer4")
-subfoot4.classList.toggle("h-footer1111")
-subFooterDiv4.classList.toggle("opacity-footer")
-green4.classList.toggle("color-click")
-ranslate4.classList.toggle("translate-click")
-  }
+//   if(navFooters.dataset.link==="f1"){
+//       mainDiv.classList.toggle("h-footer")
+// subfoot.classList.toggle("h-footer1")
+// subFooterDiv.classList.toggle("opacity-footer")
+// green.classList.toggle("color-click")
+// ranslate.classList.toggle("translate-click")
+//   }
+//   if(navFooters.dataset.link==="f2"){
+//           mainDiv.classList.toggle("h-footer2")
+// subfoot2.classList.toggle("h-footer11")
+// subFooterDiv2.classList.toggle("opacity-footer")
+// green2.classList.toggle("color-click")
+// ranslate2.classList.toggle("translate-click")
+//   }
+//   if(navFooters.dataset.link==="f3"){
+//           mainDiv.classList.toggle("h-footer3")
+// subfoot3.classList.toggle("h-footer111")
+// subFooterDiv3.classList.toggle("opacity-footer")
+// green3.classList.toggle("color-click")
+// ranslate3.classList.toggle("translate-click")
+//   }
+//   if(navFooters.dataset.link==="f4"){
+//           mainDiv.classList.toggle("h-footer4")
+// subfoot4.classList.toggle("h-footer1111")
+// subFooterDiv4.classList.toggle("opacity-footer")
+// green4.classList.toggle("color-click")
+// ranslate4.classList.toggle("translate-click")
+//   }
  
 
   
-})
-})
+// })
+// })
  
 let youtube=document.querySelectorAll(".youtube")
 let youtubeText=document.querySelectorAll(".text-youtube")
@@ -194,53 +194,53 @@ let youtubeText3=document.querySelectorAll(".text-youtube3")
 let youtubeText4=document.querySelectorAll(".text-youtube4")
 let youtubeText5=document.querySelectorAll(".text-youtube5")
 youtube.forEach((youtubes)=>{
-youtubes.addEventListener("mouseenter",()=>{
-if(youtubes.dataset.link==="icon1"){
-  youtubeText.forEach(( youtubeText1)=>{
-     youtubeText1.classList.add("opac-text-yo")
-  })
-}
-if(youtubes.dataset.link==="icon2"){
-  youtubeText2.forEach((youtubeText22)=>{
-    youtubeText22.classList.add("opac-text-yo")
-  })
-}
-if(youtubes.dataset.link==="icon3"){
-  youtubeText3.forEach((youtubeText33)=>{
-    youtubeText33.classList.add("opac-text-yo")
-  })
-}
-if(youtubes.dataset.link==="icon4"){
-  youtubeText4.forEach((youtubeText44)=>{
-    youtubeText44.classList.add("opac-text-yo")
-  })
-}
-if(youtubes.dataset.link==="icon5"){
-  youtubeText5.forEach((youtubeText55)=>{
-    youtubeText55.classList.add("opac-text-yo")
-  })
-}
-})
-youtubes.addEventListener("mouseleave",()=>{
+// youtubes.addEventListener("mouseenter",()=>{
+// if(youtubes.dataset.link==="icon1"){
+//   youtubeText.forEach(( youtubeText1)=>{
+//      youtubeText1.classList.add("opac-text-yo")
+//   })
+// }
+// if(youtubes.dataset.link==="icon2"){
+//   youtubeText2.forEach((youtubeText22)=>{
+//     youtubeText22.classList.add("opac-text-yo")
+//   })
+// }
+// if(youtubes.dataset.link==="icon3"){
+//   youtubeText3.forEach((youtubeText33)=>{
+//     youtubeText33.classList.add("opac-text-yo")
+//   })
+// }
+// if(youtubes.dataset.link==="icon4"){
+//   youtubeText4.forEach((youtubeText44)=>{
+//     youtubeText44.classList.add("opac-text-yo")
+//   })
+// }
+// if(youtubes.dataset.link==="icon5"){
+//   youtubeText5.forEach((youtubeText55)=>{
+//     youtubeText55.classList.add("opac-text-yo")
+//   })
+// }
+// })
+// youtubes.addEventListener("mouseleave",()=>{
 
 
-  youtubeText.forEach(( youtubeText1)=>{
-     youtubeText1.classList.remove("opac-text-yo")
-  })
-  youtubeText2.forEach((youtubeText22)=>{
-    youtubeText22.classList.remove("opac-text-yo")
-  })
-youtubeText3.forEach((youtubeText33)=>{
-    youtubeText33.classList.remove("opac-text-yo")
-  })
-  youtubeText4.forEach((youtubeText44)=>{
-    youtubeText44.classList.remove("opac-text-yo")
-  })
-  youtubeText5.forEach((youtubeText55)=>{
-    youtubeText55.classList.remove("opac-text-yo")
-  })
+//   youtubeText.forEach(( youtubeText1)=>{
+//      youtubeText1.classList.remove("opac-text-yo")
+//   })
+//   youtubeText2.forEach((youtubeText22)=>{
+//     youtubeText22.classList.remove("opac-text-yo")
+//   })
+// youtubeText3.forEach((youtubeText33)=>{
+//     youtubeText33.classList.remove("opac-text-yo")
+//   })
+//   youtubeText4.forEach((youtubeText44)=>{
+//     youtubeText44.classList.remove("opac-text-yo")
+//   })
+//   youtubeText5.forEach((youtubeText55)=>{
+//     youtubeText55.classList.remove("opac-text-yo")
+//   })
 
-})
+// })
 
 })
  
@@ -262,64 +262,64 @@ youtubeText3.forEach((youtubeText33)=>{
       let zeroNumber=document.querySelectorAll(".zero-number")
  let addNumber=document.querySelectorAll(".add-number")
 
-  divClick.forEach((divClicks)=>{
-    divClicks.addEventListener("click",()=>{
-      backOpen1.classList.toggle("add1")
-mainRemove.forEach((mainRemoves)=>{
-mainRemoves.classList.toggle("remove")
-})
-mainRemoveMo.forEach((mainRemovesMo)=>{
-mainRemovesMo.classList.toggle("remove")
-})
-    openDiv.forEach((openDivs)=>{
-          openDivs.classList.toggle("add")
-    })
-    openDiv1.forEach((openDivs1)=>{
-          openDivs1.classList.toggle("add111")
-    })
-plusOpac.forEach((plusOpacs)=>{
-    plusOpacs.classList.toggle("radd")
-})
-plusOpac1.forEach((plusOpacs1)=>{
-    plusOpacs1.classList.toggle("radd")
-})
-h1111.forEach((hs1111)=>[
-  hs1111.classList.toggle("color-click")
-])
-span1111.forEach((spans1111)=>[
-  spans1111.classList.toggle("translate-click")
-])
-  })
-  })
-  let backForm=document.querySelector(".back-form")
-  let form=document.querySelector(".form")
-  plusOpac.forEach((plusOpacs)=>{
-    plusOpacs.addEventListener("click",()=>{
-      openDivDiv.forEach((openDivDivs)=>{
-openDivDivs.classList.toggle("add-to-sub")
-      })
-      openDivDivmo.forEach((openDivDivsmo)=>{
-openDivDivsmo.classList.toggle("add-to-sub-mo")
-      })
-      backForm.classList.toggle("add2")
-      form.classList.toggle("add3")
-      zeroNumber.forEach((zeroNumbers)=>{
-zeroNumbers.classList.toggle("block-remove")
-})
-addNumber.forEach((addNumbers)=>{
-addNumbers.classList.toggle("block-add")
-})
-mainRemoveMo.forEach((mainRemovesMo)=>{
-mainRemovesMo.classList.toggle("add-to-main-remove-mo")
-})
-    })
-})
+//   divClick.forEach((divClicks)=>{
+//     divClicks.addEventListener("click",()=>{
+//       backOpen1.classList.toggle("add1")
+// mainRemove.forEach((mainRemoves)=>{
+// mainRemoves.classList.toggle("remove")
+// })
+// mainRemoveMo.forEach((mainRemovesMo)=>{
+// mainRemovesMo.classList.toggle("remove")
+// })
+//     openDiv.forEach((openDivs)=>{
+//           openDivs.classList.toggle("add")
+//     })
+//     openDiv1.forEach((openDivs1)=>{
+//           openDivs1.classList.toggle("add111")
+//     })
+// plusOpac.forEach((plusOpacs)=>{
+//     plusOpacs.classList.toggle("radd")
+// })
+// plusOpac1.forEach((plusOpacs1)=>{
+//     plusOpacs1.classList.toggle("radd")
+// })
+// h1111.forEach((hs1111)=>[
+//   hs1111.classList.toggle("color-click")
+// ])
+// span1111.forEach((spans1111)=>[
+//   spans1111.classList.toggle("translate-click")
+// ])
+//   })
+//   })
+//   let backForm=document.querySelector(".back-form")
+//   let form=document.querySelector(".form")
+//   plusOpac.forEach((plusOpacs)=>{
+//     plusOpacs.addEventListener("click",()=>{
+//       openDivDiv.forEach((openDivDivs)=>{
+// openDivDivs.classList.toggle("add-to-sub")
+//       })
+//       openDivDivmo.forEach((openDivDivsmo)=>{
+// openDivDivsmo.classList.toggle("add-to-sub-mo")
+//       })
+//       backForm.classList.toggle("add2")
+//       form.classList.toggle("add3")
+//       zeroNumber.forEach((zeroNumbers)=>{
+// zeroNumbers.classList.toggle("block-remove")
+// })
+// addNumber.forEach((addNumbers)=>{
+// addNumbers.classList.toggle("block-add")
+// })
+// mainRemoveMo.forEach((mainRemovesMo)=>{
+// mainRemovesMo.classList.toggle("add-to-main-remove-mo")
+// })
+//     })
+// })
 
-let pass=document.querySelectorAll("pass")
-pass.forEach((pass1)=>{
-  pass1.addEventListener("click",()=>{
+// let pass=document.querySelectorAll("pass")
+// pass.forEach((pass1)=>{
+//   pass1.addEventListener("click",()=>{
 
-  })
-})
+//   })
+// })
 
 
